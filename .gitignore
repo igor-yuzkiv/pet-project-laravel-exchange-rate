@@ -1,0 +1,16 @@
+/public
+/node_modules
+/vendor
+/storage
+/bootstrap
+/tests
+/tmp
+.env
+.env.backup
+package-lock.json
+composer.lock
+/.env.example
+/.styleci.yml
+/artisan
+/phpunit.xml
+/server.php
