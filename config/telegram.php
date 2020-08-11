@@ -9,6 +9,8 @@ return array(
         "help" => \App\Telegram\Commands\HelpCommand::class,
         "rate" => \App\Telegram\Commands\RateCommand::class,
         "mailing" => \App\Telegram\Commands\MailingSubscribeCommand::class,
-    ]
+    ],
+
+    "shareLink" => "https://t.me/IgorYuzkivBot",
 
 );

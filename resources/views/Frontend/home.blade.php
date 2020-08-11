@@ -25,9 +25,9 @@
                                     There are many variations of passages of Lorem Ipsum available, but the majority have suffered
                                     alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
                                 </div>
-                                <div class="testimonial-photo"> <img src="{{asset("frontend/images/qr_telegram_test.png")}}" class="img-responsive" alt="#" width="160" height="160"> </div>
+                                <div class="testimonial-photo"> <img src="{{asset("frontend/images/qr_telegram.png")}}" class="img-responsive" alt="#" width="160" height="160"> </div>
                                 <div class="testimonial-meta">
-                                    <a class="btn btn-info" href="#"> <i class="fa fa-telegram"></i> Telegram-бот</a>
+                                    <a class="btn btn-info" href="{!! config("telegram.shareLink") !!}"> <i class="fa fa-telegram"></i> Telegram-бот</a>
                                 </div>
                             </div>
                         </div>
